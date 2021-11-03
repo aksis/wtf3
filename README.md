@@ -8,8 +8,8 @@ wtf3@DockerHub
 ```
 alias vshell='docker run --rm -i -t wtf3/core'
 alias node='docker run --rm -i -t -v "$(pwd)":/app -w /app wtf3/node'
-alias node='docker run --rm -i -t -v "$(pwd)":/app -w /app wtf3/php'
-alias node='docker run --rm -i -t -v "$(pwd)":/app -w /app wtf3/composer'
+alias php='docker run --rm -i -t -v "$(pwd)":/app -w /app wtf3/php'
+alias composer='docker run --rm -i -t -v "$(pwd)":/app -w /app wtf3/composer'
 ```
 
 #### Test
